@@ -1,17 +1,372 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 1
+      <h1> Comida Japonesa</h1>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<div>
+  <ion-item lines="full" color="danger">
+    <ion-label>
+      <h2><b>Sushis Tradicionais (8und)</b></h2>
+    </ion-label>
+  </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/hossomaki_kani.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Hossomaki de Kani</h2>
+      <p>Rolinho de arroz recheado com kani e enrolado na alga nori</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">26,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/hossomaki_salmao.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Hossomaki de Salmão</h2>
+      <p>Rolinho de arroz recheado com salmão e enrolado na alga nori</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">24,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/hossomaki_atum.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Hossomaki de Atum</h2>
+      <p>Rolinho de arroz recheado com atum e enrolado na alga nori</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">26,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/uramaki_al_capone.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Uramaki al Capone</h2>
+      <p>Enroladinho de arroz japonês e gerglim, recheado com rúcula,
+        tomate seco, queijo gouda e cream cheese
+      </p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">24,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/uramaki_california.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Uramaki Califórnia</h2>
+      <p>Enroladinho de arroz japonês e gerglim, recheado com pepino,
+        manga, kani e cream cheese
+      </p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">26,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/uramaki_filadelphia.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Uramaki Filadelphia</h2>
+      <p>Enroladinho de arroz japonês e gerglim, recheado com salmão 
+        e cream cheese
+      </p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">27,90</ion-badge>
+  </ion-item>
+</div>
+
+<div>
+  <ion-item lines="full" color="danger">
+    <ion-label>
+      <h2><b>Hot Roll (8und)</b></h2>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/hot_filadelfia.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Hot Filadelphia</h2>
+      <p>Salmão, cream cheese, molho tarê, cebolinha verde e gergelim torrado</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">29,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/hot_shitake.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Hot Shitake</h2>
+      <p>Cream cheese, shitake, molho tarê, cebolinha verde e gergelim torrado</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">26,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/hot_maritimo.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Hot Marítimo</h2>
+      <p>Salmão, kani, camarão, cream cheese, molho tarê, cebolinha verde e gergelim torrado</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">32,90</ion-badge>
+  </ion-item>
+</div>
+
+<div>
+  <ion-item lines="full" color="danger">
+    <ion-label>
+      <h2><b>Joe’s e Sunomono (4und)</b></h2>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/joe_original.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Joe Original</h2>
+      <p>Coberto com salmão batido e cebolinha verde</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">22,90</ion-badge>
+  </ion-item>
+  
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/joe_floripa_flambado.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Joe Floripa Flambado</h2>
+      <p>Salmão maçaricado, cream cheese e cebolinha verde</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">24,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/joe_tropical.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Joe Tropical</h2>
+      <p>Maçã verde, lula defumada, cream cheese e salsinha</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">25,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/joe_atum.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Joe Atum</h2>
+      <p>Cebola roxa, óleo de gergelim torrado e cebolinha verde</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">25,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/sunomono.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Sunomono</h2>
+      <p>*150g Pepino marinado, polvo, kani e gergelim torrado</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">19,90</ion-badge>
+  </ion-item>
+</div>
+
+<div>
+  <ion-item lines="full" color="danger">
+    <ion-label>
+      <h2><b>Niguiri (4und)</b></h2>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/niguiri_salmao.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Niguiri Salmão</h2>
+      <p>Rolinho de arroz coberto com lâmina de salmão</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">22,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/niguiri_salmao_macaricado.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Niguiri Salmão Maçaricado</h2>
+      <p>Rolinho de arroz coberto com lâmina de salmão maçaricado, tarê e ovas de wasabi</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">24,90</ion-badge>
+  </ion-item>
+ 
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/niguiri_skin.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Niguiri Skin</h2>
+      <p>Rolinho de arroz coberto com lâmina de pele de salmão grelhada e molho tarê</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">24,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/niguiri_kani.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Niguiri Kani</h2>
+      <p>Rolinho de arroz coberto com lâmina de kani</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">19,90</ion-badge>
+  </ion-item>
+</div>
+
+<div>
+  <ion-item lines="full" color="danger">
+    <ion-label>
+      <h2><b>Tamaki (1und)</b></h2>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/temaki_filadelfia.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Tradicional</h2>
+      <p>Alga recheada com arroz japonês, salmão em cubos,
+        cream cheese e cebolinha
+      </p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">22,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/temaki_california.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Califórnia</h2>
+      <p>Alga recheada com arroz japonês, kani, manga, pepino e cream cheese</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">22,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/temaki_tropical.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Tropical</h2>
+      <p>Alga recheada com arroz japonês, salmão, maçã verde, lula defumada, cream cheese</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">29,90</ion-badge>
+  </ion-item>
+</div>
+
+<div>
+  <ion-item lines="full" color="danger">
+    <ion-label>
+      <h2><b>Sashimi (12und)</b></h2>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/sashimi_salmao.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Salmão</h2>
+      <p>Fatias cruas de salmão</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">22,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/sashimi_atum.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Atum</h2>
+      <p>Fatias cruas de atum</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">22,90</ion-badge>
+  </ion-item>
+</div>
+
+<div>
+  <ion-item lines="full" color="danger">
+    <ion-label>
+      <h2><b>Special Rolls (10und)</b></h2>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/special_salmao_macaricado.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Salmão Maçaricado</h2>
+      <p>Salmão, tarê, ovas de wasabi e cream cheese</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">36,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/special_filadelfia_crisp.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Filadelphia Crisp</h2>
+      <p>Salmão, cream cheese e crisp’s de couve</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">32,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/special_rainbown.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Rainbow Roll</h2>
+      <p>Salmão, atum, abacate, patê de salmão e pimenta dedo de moça</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">32,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/special_tempura_rool.png">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Tempura Roll</h2>
+      <p>Camarão empanado, abacate, aspargos, cream cheese, tarê e pimenta dedo de moça</p>
+    </ion-label> 
+    <ion-badge slot="end" color="medium">36,90</ion-badge>
+  </ion-item>
+</div>
+
+
 </ion-content>
